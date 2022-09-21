@@ -27,12 +27,12 @@ services:
     ports:
        - 9090:8080
   #register app backend service
-  challenge-back:
+  billingapp-back:
     build:
       context: ./
       args:
         - JAR_FILE=target/*.jar
-    container_name: challenge-back
+    container_name: billingApp-back
     environment:
       - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres_db:5432/postgres
       - SPRING_POSTGRES_USER=postgres
@@ -44,5 +44,5 @@ services:
     depends_on:
       - postgres_db
     ports:
-      - 8081:8080
+      - 8080:8080
 

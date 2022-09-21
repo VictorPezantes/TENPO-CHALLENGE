@@ -324,3 +324,778 @@
 2022-09-11 22:44:20.354-03:00  INFO [SpringContextShutdownHook] [traceId: ] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2022-09-11 22:44:20.374-03:00  INFO [SpringContextShutdownHook] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2022-09-11 22:44:20.384-03:00  INFO [SpringContextShutdownHook] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-09-11 23:38:57.863-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Starting TtkAdmisionApplication on LAPTOP-NTG74QU4 with PID 1512 (C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random\target\classes started by ENVY in C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random)
+2022-09-11 23:38:57.867-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : No active profile set, falling back to default profiles: default
+2022-09-11 23:38:59.110-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-11 23:38:59.134-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 JPA repository interfaces.
+2022-09-11 23:38:59.745-03:00  INFO [main] [traceId: ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-11 23:39:00.310-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-11 23:39:00.330-03:00  INFO [main] [traceId: ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-11 23:39:00.330-03:00  INFO [main] [traceId: ] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-09-11 23:39:00.499-03:00  INFO [main] [traceId: ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-11 23:39:00.499-03:00  INFO [main] [traceId: ] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2555 ms
+2022-09-11 23:39:00.712-03:00  INFO [main] [traceId: ] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-11 23:39:00.815-03:00  INFO [main] [traceId: ] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2022-09-11 23:39:00.993-03:00  INFO [main] [traceId: ] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-09-11 23:39:01.117-03:00  INFO [main] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-11 23:39:01.461-03:00  INFO [main] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-11 23:39:01.484-03:00  INFO [main] [traceId: ] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-09-11 23:39:01.913-03:00  INFO [main] [traceId: ] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-11 23:39:01.921-03:00  INFO [main] [traceId: ] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-11 23:39:02.181-03:00  WARN [main] [traceId: ] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-11 23:39:02.503-03:00  INFO [main] [traceId: ] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-11 23:39:02.643-03:00  WARN [main] [traceId: ] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-09-11 23:39:02.837-03:00  INFO [main] [traceId: ] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: e7ae1a85-75f3-41de-83df-7b6e89c3a5bc
+
+2022-09-11 23:39:02.961-03:00  INFO [main] [traceId: ] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@13731ff4, org.springframework.security.web.context.SecurityContextPersistenceFilter@38c1b1a7, org.springframework.security.web.header.HeaderWriterFilter@34f8ce89, org.springframework.security.web.csrf.CsrfFilter@1be12e05, org.springframework.security.web.authentication.logout.LogoutFilter@2202c92f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@11896124, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2bc0603f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1ce8084a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4e826fd4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@10bcbbce, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@62264d4f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@61d24347, org.springframework.security.web.session.SessionManagementFilter@30ca66c5, org.springframework.security.web.access.ExceptionTranslationFilter@618e7761, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@623ded82]
+2022-09-11 23:39:03.338-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-11 23:39:03.343-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Started TtkAdmisionApplication in 5.927 seconds (JVM running for 6.825)
+2022-09-11 23:39:43.593-03:00  INFO [http-nio-8080-exec-2] [traceId: ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-11 23:39:43.594-03:00  INFO [http-nio-8080-exec-2] [traceId: ] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-11 23:39:43.610-03:00  INFO [http-nio-8080-exec-2] [traceId: ] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2022-09-11 23:39:43.798-03:00  WARN [http-nio-8080-exec-2] [traceId: ] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [150] milliseconds.
+2022-09-11 23:41:11.415-03:00  INFO [SpringContextShutdownHook] [traceId: ] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-11 23:41:11.418-03:00  INFO [SpringContextShutdownHook] [traceId: ] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-11 23:41:11.421-03:00  INFO [SpringContextShutdownHook] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-11 23:41:11.429-03:00  INFO [SpringContextShutdownHook] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-09-11 23:41:18.790-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Starting TtkAdmisionApplication on LAPTOP-NTG74QU4 with PID 17748 (C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random\target\classes started by ENVY in C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random)
+2022-09-11 23:41:18.794-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : No active profile set, falling back to default profiles: default
+2022-09-11 23:41:19.732-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-11 23:41:19.753-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 JPA repository interfaces.
+2022-09-11 23:41:20.158-03:00  INFO [main] [traceId: ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-11 23:41:20.643-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-11 23:41:20.668-03:00  INFO [main] [traceId: ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-11 23:41:20.669-03:00  INFO [main] [traceId: ] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-09-11 23:41:20.861-03:00  INFO [main] [traceId: ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-11 23:41:20.862-03:00  INFO [main] [traceId: ] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2005 ms
+2022-09-11 23:41:21.068-03:00  INFO [main] [traceId: ] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-11 23:41:21.171-03:00  INFO [main] [traceId: ] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2022-09-11 23:41:21.337-03:00  INFO [main] [traceId: ] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-09-11 23:41:21.462-03:00  INFO [main] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-11 23:41:21.667-03:00  INFO [main] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-11 23:41:21.690-03:00  INFO [main] [traceId: ] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-09-11 23:41:22.002-03:00  INFO [main] [traceId: ] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-11 23:41:22.013-03:00  INFO [main] [traceId: ] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-11 23:41:22.285-03:00  WARN [main] [traceId: ] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-11 23:41:22.573-03:00  INFO [main] [traceId: ] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-11 23:41:22.683-03:00  WARN [main] [traceId: ] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-09-11 23:41:23.186-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-11 23:41:23.191-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Started TtkAdmisionApplication in 4.768 seconds (JVM running for 5.568)
+2022-09-11 23:41:27.920-03:00  INFO [http-nio-8080-exec-2] [traceId: ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-11 23:41:27.921-03:00  INFO [http-nio-8080-exec-2] [traceId: ] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-11 23:41:27.931-03:00  INFO [http-nio-8080-exec-2] [traceId: ] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2022-09-11 23:43:36.255-03:00  INFO [SpringContextShutdownHook] [traceId: ] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-11 23:43:36.258-03:00  INFO [SpringContextShutdownHook] [traceId: ] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-11 23:43:36.262-03:00  INFO [SpringContextShutdownHook] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-11 23:43:36.270-03:00  INFO [SpringContextShutdownHook] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-09-11 23:43:41.731-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Starting TtkAdmisionApplication on LAPTOP-NTG74QU4 with PID 17000 (C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random\target\classes started by ENVY in C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random)
+2022-09-11 23:43:41.735-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : No active profile set, falling back to default profiles: default
+2022-09-11 23:43:42.730-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-11 23:43:42.756-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 JPA repository interfaces.
+2022-09-11 23:43:43.198-03:00  INFO [main] [traceId: ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-11 23:43:43.713-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-11 23:43:43.729-03:00  INFO [main] [traceId: ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-11 23:43:43.729-03:00  INFO [main] [traceId: ] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-09-11 23:43:43.884-03:00  INFO [main] [traceId: ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-11 23:43:43.885-03:00  INFO [main] [traceId: ] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2100 ms
+2022-09-11 23:43:44.075-03:00  INFO [main] [traceId: ] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-11 23:43:44.162-03:00  INFO [main] [traceId: ] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2022-09-11 23:43:44.372-03:00  INFO [main] [traceId: ] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-09-11 23:43:44.496-03:00  INFO [main] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-11 23:43:44.703-03:00  INFO [main] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-11 23:43:44.723-03:00  INFO [main] [traceId: ] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-09-11 23:43:45.050-03:00  INFO [main] [traceId: ] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-11 23:43:45.058-03:00  INFO [main] [traceId: ] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-11 23:43:45.303-03:00  WARN [main] [traceId: ] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-11 23:43:45.612-03:00  INFO [main] [traceId: ] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-11 23:43:45.730-03:00  WARN [main] [traceId: ] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-09-11 23:43:46.210-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-11 23:43:46.214-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Started TtkAdmisionApplication in 4.85 seconds (JVM running for 5.649)
+2022-09-11 23:43:48.842-03:00  INFO [http-nio-8080-exec-1] [traceId: ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-11 23:43:48.843-03:00  INFO [http-nio-8080-exec-1] [traceId: ] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-11 23:43:48.858-03:00  INFO [http-nio-8080-exec-1] [traceId: ] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2022-09-11 23:45:11.076-03:00  INFO [SpringContextShutdownHook] [traceId: ] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-11 23:45:11.079-03:00  INFO [SpringContextShutdownHook] [traceId: ] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-11 23:45:11.081-03:00  INFO [SpringContextShutdownHook] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-11 23:45:11.091-03:00  INFO [SpringContextShutdownHook] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-09-11 23:45:16.508-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Starting TtkAdmisionApplication on LAPTOP-NTG74QU4 with PID 5552 (C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random\target\classes started by ENVY in C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random)
+2022-09-11 23:45:16.513-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : No active profile set, falling back to default profiles: default
+2022-09-11 23:45:17.414-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-11 23:45:17.443-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18ms. Found 0 JPA repository interfaces.
+2022-09-11 23:45:17.907-03:00  INFO [main] [traceId: ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-11 23:45:18.355-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-11 23:45:18.365-03:00  INFO [main] [traceId: ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-11 23:45:18.365-03:00  INFO [main] [traceId: ] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-09-11 23:45:18.557-03:00  INFO [main] [traceId: ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-11 23:45:18.557-03:00  INFO [main] [traceId: ] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1993 ms
+2022-09-11 23:45:18.754-03:00  INFO [main] [traceId: ] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-11 23:45:18.831-03:00  INFO [main] [traceId: ] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2022-09-11 23:45:18.969-03:00  INFO [main] [traceId: ] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-09-11 23:45:19.092-03:00  INFO [main] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-11 23:45:19.343-03:00  INFO [main] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-11 23:45:19.364-03:00  INFO [main] [traceId: ] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-09-11 23:45:19.851-03:00  INFO [main] [traceId: ] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-11 23:45:19.860-03:00  INFO [main] [traceId: ] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-11 23:45:20.147-03:00  WARN [main] [traceId: ] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-11 23:45:20.458-03:00  INFO [main] [traceId: ] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-11 23:45:20.574-03:00  WARN [main] [traceId: ] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-09-11 23:45:21.044-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-11 23:45:21.048-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Started TtkAdmisionApplication in 4.887 seconds (JVM running for 5.643)
+2022-09-11 23:45:23.038-03:00  INFO [http-nio-8080-exec-3] [traceId: ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-11 23:45:23.040-03:00  INFO [http-nio-8080-exec-3] [traceId: ] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-11 23:45:23.051-03:00  INFO [http-nio-8080-exec-3] [traceId: ] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2022-09-11 23:45:51.826-03:00  INFO [SpringContextShutdownHook] [traceId: ] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-11 23:45:51.828-03:00  INFO [SpringContextShutdownHook] [traceId: ] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-11 23:45:51.830-03:00  INFO [SpringContextShutdownHook] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-11 23:45:51.836-03:00  INFO [SpringContextShutdownHook] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-09-11 23:45:57.343-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Starting TtkAdmisionApplication on LAPTOP-NTG74QU4 with PID 18584 (C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random\target\classes started by ENVY in C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random)
+2022-09-11 23:45:57.348-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : No active profile set, falling back to default profiles: default
+2022-09-11 23:45:58.311-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-11 23:45:58.344-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20ms. Found 0 JPA repository interfaces.
+2022-09-11 23:45:58.891-03:00  INFO [main] [traceId: ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-11 23:45:59.688-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-11 23:45:59.699-03:00  INFO [main] [traceId: ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-11 23:45:59.700-03:00  INFO [main] [traceId: ] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-09-11 23:45:59.846-03:00  INFO [main] [traceId: ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-11 23:45:59.846-03:00  INFO [main] [traceId: ] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2449 ms
+2022-09-11 23:46:00.054-03:00  INFO [main] [traceId: ] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-11 23:46:00.120-03:00  INFO [main] [traceId: ] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2022-09-11 23:46:00.247-03:00  INFO [main] [traceId: ] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-09-11 23:46:00.356-03:00  INFO [main] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-11 23:46:00.566-03:00  INFO [main] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-11 23:46:00.586-03:00  INFO [main] [traceId: ] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-09-11 23:46:00.903-03:00  INFO [main] [traceId: ] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-11 23:46:00.909-03:00  INFO [main] [traceId: ] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-11 23:46:01.161-03:00  WARN [main] [traceId: ] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-11 23:46:01.460-03:00  INFO [main] [traceId: ] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-11 23:46:01.562-03:00  WARN [main] [traceId: ] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-09-11 23:46:01.974-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-11 23:46:01.978-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Started TtkAdmisionApplication in 5.033 seconds (JVM running for 5.757)
+2022-09-11 23:46:03.907-03:00  INFO [http-nio-8080-exec-2] [traceId: ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-11 23:46:03.909-03:00  INFO [http-nio-8080-exec-2] [traceId: ] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-11 23:46:03.919-03:00  INFO [http-nio-8080-exec-2] [traceId: ] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2022-09-11 23:46:35.956-03:00  INFO [SpringContextShutdownHook] [traceId: ] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-11 23:46:35.959-03:00  INFO [SpringContextShutdownHook] [traceId: ] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-11 23:46:35.961-03:00  INFO [SpringContextShutdownHook] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-11 23:46:35.970-03:00  INFO [SpringContextShutdownHook] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-09-11 23:46:41.778-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Starting TtkAdmisionApplication on LAPTOP-NTG74QU4 with PID 4276 (C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random\target\classes started by ENVY in C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random)
+2022-09-11 23:46:41.781-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : No active profile set, falling back to default profiles: default
+2022-09-11 23:46:42.716-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-11 23:46:42.737-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 JPA repository interfaces.
+2022-09-11 23:46:43.143-03:00  INFO [main] [traceId: ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-11 23:46:43.605-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-11 23:46:43.615-03:00  INFO [main] [traceId: ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-11 23:46:43.615-03:00  INFO [main] [traceId: ] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-09-11 23:46:43.745-03:00  INFO [main] [traceId: ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-11 23:46:43.745-03:00  INFO [main] [traceId: ] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1922 ms
+2022-09-11 23:46:43.954-03:00  INFO [main] [traceId: ] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-11 23:46:44.044-03:00  INFO [main] [traceId: ] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2022-09-11 23:46:44.210-03:00  INFO [main] [traceId: ] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-09-11 23:46:44.335-03:00  INFO [main] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-11 23:46:44.599-03:00  INFO [main] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-11 23:46:44.617-03:00  INFO [main] [traceId: ] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-09-11 23:46:44.924-03:00  INFO [main] [traceId: ] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-11 23:46:44.931-03:00  INFO [main] [traceId: ] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-11 23:46:45.240-03:00  WARN [main] [traceId: ] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-11 23:46:45.570-03:00  INFO [main] [traceId: ] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-11 23:46:45.685-03:00  WARN [main] [traceId: ] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-09-11 23:46:46.165-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-11 23:46:46.169-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Started TtkAdmisionApplication in 4.728 seconds (JVM running for 5.402)
+2022-09-11 23:46:51.988-03:00  INFO [http-nio-8080-exec-2] [traceId: ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-11 23:46:51.990-03:00  INFO [http-nio-8080-exec-2] [traceId: ] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-11 23:46:51.999-03:00  INFO [http-nio-8080-exec-2] [traceId: ] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2022-09-11 23:47:15.378-03:00  INFO [SpringContextShutdownHook] [traceId: ] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-11 23:47:15.380-03:00  INFO [SpringContextShutdownHook] [traceId: ] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-11 23:47:15.382-03:00  INFO [SpringContextShutdownHook] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-11 23:47:15.391-03:00  INFO [SpringContextShutdownHook] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-09-11 23:47:21.218-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Starting TtkAdmisionApplication on LAPTOP-NTG74QU4 with PID 14352 (C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random\target\classes started by ENVY in C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random)
+2022-09-11 23:47:21.221-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : No active profile set, falling back to default profiles: default
+2022-09-11 23:47:22.175-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-11 23:47:22.198-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 JPA repository interfaces.
+2022-09-11 23:47:22.603-03:00  INFO [main] [traceId: ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-11 23:47:23.055-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-11 23:47:23.065-03:00  INFO [main] [traceId: ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-11 23:47:23.065-03:00  INFO [main] [traceId: ] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-09-11 23:47:23.254-03:00  INFO [main] [traceId: ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-11 23:47:23.254-03:00  INFO [main] [traceId: ] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1987 ms
+2022-09-11 23:47:23.468-03:00  INFO [main] [traceId: ] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-11 23:47:23.552-03:00  INFO [main] [traceId: ] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2022-09-11 23:47:23.682-03:00  INFO [main] [traceId: ] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-09-11 23:47:23.793-03:00  INFO [main] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-11 23:47:23.989-03:00  INFO [main] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-11 23:47:24.008-03:00  INFO [main] [traceId: ] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-09-11 23:47:24.322-03:00  INFO [main] [traceId: ] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-11 23:47:24.327-03:00  INFO [main] [traceId: ] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-11 23:47:24.590-03:00  WARN [main] [traceId: ] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-11 23:47:24.905-03:00  INFO [main] [traceId: ] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-11 23:47:25.030-03:00  WARN [main] [traceId: ] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-09-11 23:47:25.514-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-11 23:47:25.518-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Started TtkAdmisionApplication in 4.686 seconds (JVM running for 5.349)
+2022-09-11 23:47:35.846-03:00  INFO [http-nio-8080-exec-6] [traceId: ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-11 23:47:35.848-03:00  INFO [http-nio-8080-exec-6] [traceId: ] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-11 23:47:35.854-03:00  INFO [http-nio-8080-exec-6] [traceId: ] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2022-09-11 23:48:19.172-03:00  INFO [SpringContextShutdownHook] [traceId: ] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-11 23:48:19.174-03:00  INFO [SpringContextShutdownHook] [traceId: ] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-11 23:48:19.176-03:00  INFO [SpringContextShutdownHook] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-11 23:48:19.187-03:00  INFO [SpringContextShutdownHook] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-09-11 23:48:25.294-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Starting TtkAdmisionApplication on LAPTOP-NTG74QU4 with PID 18196 (C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random\target\classes started by ENVY in C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random)
+2022-09-11 23:48:25.298-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : No active profile set, falling back to default profiles: default
+2022-09-11 23:48:26.204-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-11 23:48:26.225-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 JPA repository interfaces.
+2022-09-11 23:48:26.676-03:00  INFO [main] [traceId: ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-11 23:48:27.180-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-11 23:48:27.190-03:00  INFO [main] [traceId: ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-11 23:48:27.190-03:00  INFO [main] [traceId: ] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-09-11 23:48:27.344-03:00  INFO [main] [traceId: ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-11 23:48:27.345-03:00  INFO [main] [traceId: ] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1998 ms
+2022-09-11 23:48:27.558-03:00  INFO [main] [traceId: ] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-11 23:48:27.638-03:00  INFO [main] [traceId: ] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2022-09-11 23:48:27.792-03:00  INFO [main] [traceId: ] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-09-11 23:48:27.905-03:00  INFO [main] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-11 23:48:28.160-03:00  INFO [main] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-11 23:48:28.182-03:00  INFO [main] [traceId: ] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-09-11 23:48:28.504-03:00  INFO [main] [traceId: ] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-11 23:48:28.512-03:00  INFO [main] [traceId: ] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-11 23:48:28.775-03:00  WARN [main] [traceId: ] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-11 23:48:29.102-03:00  INFO [main] [traceId: ] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-11 23:48:29.231-03:00  WARN [main] [traceId: ] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-09-11 23:48:29.706-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-11 23:48:29.709-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Started TtkAdmisionApplication in 4.803 seconds (JVM running for 5.721)
+2022-09-11 23:48:32.286-03:00  INFO [http-nio-8080-exec-1] [traceId: ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-11 23:48:32.287-03:00  INFO [http-nio-8080-exec-1] [traceId: ] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-11 23:48:32.297-03:00  INFO [http-nio-8080-exec-1] [traceId: ] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2022-09-11 23:51:56.978-03:00  INFO [SpringContextShutdownHook] [traceId: ] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-11 23:51:56.981-03:00  INFO [SpringContextShutdownHook] [traceId: ] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-11 23:51:56.985-03:00  INFO [SpringContextShutdownHook] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-11 23:51:56.998-03:00  INFO [SpringContextShutdownHook] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-09-11 23:52:02.384-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Starting TtkAdmisionApplication on LAPTOP-NTG74QU4 with PID 5888 (C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random\target\classes started by ENVY in C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random)
+2022-09-11 23:52:02.388-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : No active profile set, falling back to default profiles: default
+2022-09-11 23:52:03.269-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-11 23:52:03.293-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 JPA repository interfaces.
+2022-09-11 23:52:03.769-03:00  INFO [main] [traceId: ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-11 23:52:04.264-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-11 23:52:04.283-03:00  INFO [main] [traceId: ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-11 23:52:04.284-03:00  INFO [main] [traceId: ] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-09-11 23:52:04.445-03:00  INFO [main] [traceId: ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-11 23:52:04.446-03:00  INFO [main] [traceId: ] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2009 ms
+2022-09-11 23:52:04.688-03:00  INFO [main] [traceId: ] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-11 23:52:04.884-03:00  INFO [main] [traceId: ] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2022-09-11 23:52:05.154-03:00  INFO [main] [traceId: ] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-09-11 23:52:05.362-03:00  INFO [main] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-11 23:52:05.732-03:00  INFO [main] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-11 23:52:05.756-03:00  INFO [main] [traceId: ] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-09-11 23:52:06.219-03:00  INFO [main] [traceId: ] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-11 23:52:06.230-03:00  INFO [main] [traceId: ] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-11 23:52:06.513-03:00  WARN [main] [traceId: ] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-11 23:52:06.896-03:00  INFO [main] [traceId: ] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-11 23:52:07.028-03:00  WARN [main] [traceId: ] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-09-11 23:52:07.488-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-11 23:52:07.493-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Started TtkAdmisionApplication in 5.468 seconds (JVM running for 6.266)
+2022-09-11 23:52:10.932-03:00  INFO [http-nio-8080-exec-1] [traceId: ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-11 23:52:10.933-03:00  INFO [http-nio-8080-exec-1] [traceId: ] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-11 23:52:10.944-03:00  INFO [http-nio-8080-exec-1] [traceId: ] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2022-09-11 23:52:56.349-03:00  INFO [SpringContextShutdownHook] [traceId: ] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-11 23:52:56.352-03:00  INFO [SpringContextShutdownHook] [traceId: ] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-11 23:52:56.355-03:00  INFO [SpringContextShutdownHook] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-11 23:52:56.364-03:00  INFO [SpringContextShutdownHook] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-09-11 23:53:01.708-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Starting TtkAdmisionApplication on LAPTOP-NTG74QU4 with PID 9916 (C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random\target\classes started by ENVY in C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random)
+2022-09-11 23:53:01.711-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : No active profile set, falling back to default profiles: default
+2022-09-11 23:53:02.525-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-11 23:53:02.548-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 JPA repository interfaces.
+2022-09-11 23:53:03.002-03:00  INFO [main] [traceId: ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-11 23:53:03.456-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-11 23:53:03.466-03:00  INFO [main] [traceId: ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-11 23:53:03.466-03:00  INFO [main] [traceId: ] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-09-11 23:53:03.587-03:00  INFO [main] [traceId: ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-11 23:53:03.587-03:00  INFO [main] [traceId: ] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1831 ms
+2022-09-11 23:53:03.781-03:00  INFO [main] [traceId: ] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-11 23:53:03.857-03:00  INFO [main] [traceId: ] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2022-09-11 23:53:03.991-03:00  INFO [main] [traceId: ] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-09-11 23:53:04.122-03:00  INFO [main] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-11 23:53:04.323-03:00  INFO [main] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-11 23:53:04.341-03:00  INFO [main] [traceId: ] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-09-11 23:53:04.674-03:00  INFO [main] [traceId: ] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-11 23:53:04.682-03:00  INFO [main] [traceId: ] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-11 23:53:04.966-03:00  WARN [main] [traceId: ] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-11 23:53:05.303-03:00  INFO [main] [traceId: ] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-11 23:53:05.449-03:00  WARN [main] [traceId: ] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-09-11 23:53:06.013-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-11 23:53:06.018-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Started TtkAdmisionApplication in 4.662 seconds (JVM running for 5.358)
+2022-09-11 23:53:08.934-03:00  INFO [http-nio-8080-exec-2] [traceId: ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-11 23:53:08.935-03:00  INFO [http-nio-8080-exec-2] [traceId: ] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-11 23:53:08.946-03:00  INFO [http-nio-8080-exec-2] [traceId: ] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2022-09-11 23:57:00.936-03:00  INFO [SpringContextShutdownHook] [traceId: ] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-11 23:57:00.939-03:00  INFO [SpringContextShutdownHook] [traceId: ] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-11 23:57:00.942-03:00  INFO [SpringContextShutdownHook] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-11 23:57:00.953-03:00  INFO [SpringContextShutdownHook] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-09-11 23:57:06.326-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Starting TtkAdmisionApplication on LAPTOP-NTG74QU4 with PID 3772 (C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random\target\classes started by ENVY in C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random)
+2022-09-11 23:57:06.331-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : No active profile set, falling back to default profiles: default
+2022-09-11 23:57:07.209-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-11 23:57:07.230-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 JPA repository interfaces.
+2022-09-11 23:57:07.658-03:00  INFO [main] [traceId: ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-11 23:57:08.117-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-11 23:57:08.130-03:00  INFO [main] [traceId: ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-11 23:57:08.131-03:00  INFO [main] [traceId: ] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-09-11 23:57:08.282-03:00  INFO [main] [traceId: ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-11 23:57:08.282-03:00  INFO [main] [traceId: ] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1904 ms
+2022-09-11 23:57:08.495-03:00  INFO [main] [traceId: ] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-11 23:57:08.589-03:00  INFO [main] [traceId: ] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2022-09-11 23:57:08.777-03:00  INFO [main] [traceId: ] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-09-11 23:57:08.909-03:00  INFO [main] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-11 23:57:09.148-03:00  INFO [main] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-11 23:57:09.172-03:00  INFO [main] [traceId: ] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-09-11 23:57:09.506-03:00  INFO [main] [traceId: ] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-11 23:57:09.514-03:00  INFO [main] [traceId: ] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-11 23:57:09.788-03:00  WARN [main] [traceId: ] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-11 23:57:10.110-03:00  INFO [main] [traceId: ] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-11 23:57:10.232-03:00  WARN [main] [traceId: ] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-09-11 23:57:10.720-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-11 23:57:10.726-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Started TtkAdmisionApplication in 4.749 seconds (JVM running for 5.5)
+2022-09-11 23:57:15.601-03:00  INFO [http-nio-8080-exec-2] [traceId: ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-11 23:57:15.602-03:00  INFO [http-nio-8080-exec-2] [traceId: ] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-11 23:57:15.613-03:00  INFO [http-nio-8080-exec-2] [traceId: ] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2022-09-11 23:57:51.673-03:00  INFO [SpringContextShutdownHook] [traceId: ] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-11 23:57:51.675-03:00  INFO [SpringContextShutdownHook] [traceId: ] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-11 23:57:51.680-03:00  INFO [SpringContextShutdownHook] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-11 23:57:51.688-03:00  INFO [SpringContextShutdownHook] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-09-11 23:57:57.084-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Starting TtkAdmisionApplication on LAPTOP-NTG74QU4 with PID 14876 (C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random\target\classes started by ENVY in C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random)
+2022-09-11 23:57:57.087-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : No active profile set, falling back to default profiles: default
+2022-09-11 23:57:58.004-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-11 23:57:58.025-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 JPA repository interfaces.
+2022-09-11 23:57:58.431-03:00  INFO [main] [traceId: ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-11 23:57:58.844-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-11 23:57:58.856-03:00  INFO [main] [traceId: ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-11 23:57:58.856-03:00  INFO [main] [traceId: ] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-09-11 23:57:58.971-03:00  INFO [main] [traceId: ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-11 23:57:58.972-03:00  INFO [main] [traceId: ] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1834 ms
+2022-09-11 23:57:59.152-03:00  INFO [main] [traceId: ] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-11 23:57:59.224-03:00  INFO [main] [traceId: ] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2022-09-11 23:57:59.372-03:00  INFO [main] [traceId: ] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-09-11 23:57:59.491-03:00  INFO [main] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-11 23:57:59.762-03:00  INFO [main] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-11 23:57:59.782-03:00  INFO [main] [traceId: ] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-09-11 23:58:00.123-03:00  INFO [main] [traceId: ] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-11 23:58:00.132-03:00  INFO [main] [traceId: ] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-11 23:58:00.396-03:00  WARN [main] [traceId: ] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-11 23:58:00.711-03:00  INFO [main] [traceId: ] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-11 23:58:00.832-03:00  WARN [main] [traceId: ] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-09-11 23:58:01.320-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-11 23:58:01.326-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Started TtkAdmisionApplication in 4.585 seconds (JVM running for 5.256)
+2022-09-11 23:58:21.133-03:00  INFO [http-nio-8080-exec-2] [traceId: ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-11 23:58:21.134-03:00  INFO [http-nio-8080-exec-2] [traceId: ] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-11 23:58:21.143-03:00  INFO [http-nio-8080-exec-2] [traceId: ] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2022-09-11 23:59:50.714-03:00  INFO [SpringContextShutdownHook] [traceId: ] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-11 23:59:50.717-03:00  INFO [SpringContextShutdownHook] [traceId: ] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-11 23:59:50.720-03:00  INFO [SpringContextShutdownHook] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-11 23:59:50.731-03:00  INFO [SpringContextShutdownHook] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-09-11 23:59:54.104-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Starting TtkAdmisionApplication on LAPTOP-NTG74QU4 with PID 14784 (C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random\target\classes started by ENVY in C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random)
+2022-09-11 23:59:54.107-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : No active profile set, falling back to default profiles: default
+2022-09-11 23:59:54.985-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-11 23:59:55.009-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 JPA repository interfaces.
+2022-09-11 23:59:55.404-03:00  INFO [main] [traceId: ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-11 23:59:55.829-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-11 23:59:55.839-03:00  INFO [main] [traceId: ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-11 23:59:55.839-03:00  INFO [main] [traceId: ] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-09-11 23:59:56.003-03:00  INFO [main] [traceId: ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-11 23:59:56.003-03:00  INFO [main] [traceId: ] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1851 ms
+2022-09-11 23:59:56.204-03:00  INFO [main] [traceId: ] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-11 23:59:56.278-03:00  INFO [main] [traceId: ] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2022-09-11 23:59:56.417-03:00  INFO [main] [traceId: ] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-09-11 23:59:56.555-03:00  INFO [main] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-11 23:59:56.763-03:00  INFO [main] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-11 23:59:56.785-03:00  INFO [main] [traceId: ] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-09-11 23:59:57.156-03:00  INFO [main] [traceId: ] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-11 23:59:57.165-03:00  INFO [main] [traceId: ] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-11 23:59:57.459-03:00  WARN [main] [traceId: ] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-11 23:59:57.784-03:00  INFO [main] [traceId: ] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-11 23:59:57.913-03:00  WARN [main] [traceId: ] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-09-11 23:59:58.414-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-11 23:59:58.418-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Started TtkAdmisionApplication in 4.643 seconds (JVM running for 5.487)
+2022-09-12 00:00:20.968-03:00  INFO [SpringContextShutdownHook] [traceId: ] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-12 00:00:20.972-03:00  INFO [SpringContextShutdownHook] [traceId: ] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-12 00:00:20.974-03:00  INFO [SpringContextShutdownHook] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-12 00:00:20.984-03:00  INFO [SpringContextShutdownHook] [traceId: ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-09-12 00:00:24.173-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Starting TtkAdmisionApplication on LAPTOP-NTG74QU4 with PID 6440 (C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random\target\classes started by ENVY in C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random)
+2022-09-12 00:00:24.176-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : No active profile set, falling back to default profiles: default
+2022-09-12 00:00:25.085-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-12 00:00:25.103-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 JPA repository interfaces.
+2022-09-12 00:00:25.471-03:00  INFO [main] [traceId: ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-12 00:00:25.912-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-12 00:00:25.921-03:00  INFO [main] [traceId: ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-12 00:00:25.922-03:00  INFO [main] [traceId: ] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-09-12 00:00:26.042-03:00  INFO [main] [traceId: ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-12 00:00:26.042-03:00  INFO [main] [traceId: ] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1818 ms
+2022-09-12 00:00:26.096-03:00  WARN [main] [traceId: ] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-09-12 00:00:26.099-03:00  INFO [main] [traceId: ] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-12 00:00:26.129-03:00  INFO [main] [traceId: ] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-09-12 00:00:26.131-03:00 ERROR [main] [traceId: ] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2022-09-12 00:01:52.107-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Starting TtkAdmisionApplication on LAPTOP-NTG74QU4 with PID 20400 (C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random\target\classes started by ENVY in C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random)
+2022-09-12 00:01:52.112-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : No active profile set, falling back to default profiles: default
+2022-09-12 00:01:53.273-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-12 00:01:53.295-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 JPA repository interfaces.
+2022-09-12 00:01:53.689-03:00  INFO [main] [traceId: ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-12 00:01:54.137-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-12 00:01:54.150-03:00  INFO [main] [traceId: ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-12 00:01:54.150-03:00  INFO [main] [traceId: ] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-09-12 00:01:54.307-03:00  INFO [main] [traceId: ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-12 00:01:54.307-03:00  INFO [main] [traceId: ] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2143 ms
+2022-09-12 00:01:54.374-03:00  WARN [main] [traceId: ] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-09-12 00:01:54.378-03:00  INFO [main] [traceId: ] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-12 00:01:54.401-03:00  INFO [main] [traceId: ] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-09-12 00:01:54.403-03:00 ERROR [main] [traceId: ] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2022-09-12 00:02:23.725-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Starting TtkAdmisionApplication on LAPTOP-NTG74QU4 with PID 12384 (C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random\target\classes started by ENVY in C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random)
+2022-09-12 00:02:23.729-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : No active profile set, falling back to default profiles: default
+2022-09-12 00:02:24.720-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-12 00:02:24.748-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 JPA repository interfaces.
+2022-09-12 00:02:25.228-03:00  INFO [main] [traceId: ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-12 00:02:25.659-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-12 00:02:25.669-03:00  INFO [main] [traceId: ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-12 00:02:25.669-03:00  INFO [main] [traceId: ] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-09-12 00:02:25.832-03:00  INFO [main] [traceId: ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-12 00:02:25.833-03:00  INFO [main] [traceId: ] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2063 ms
+2022-09-12 00:02:25.906-03:00  WARN [main] [traceId: ] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-09-12 00:02:25.910-03:00  INFO [main] [traceId: ] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-12 00:02:25.936-03:00  INFO [main] [traceId: ] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-09-12 00:02:25.938-03:00 ERROR [main] [traceId: ] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2022-09-12 00:05:11.621-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Starting TtkAdmisionApplication on LAPTOP-NTG74QU4 with PID 15368 (C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random\target\classes started by ENVY in C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random)
+2022-09-12 00:05:11.625-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : No active profile set, falling back to default profiles: default
+2022-09-12 00:05:12.497-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-12 00:05:12.521-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 JPA repository interfaces.
+2022-09-12 00:05:12.900-03:00  INFO [main] [traceId: ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-12 00:05:13.308-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-12 00:05:13.318-03:00  INFO [main] [traceId: ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-12 00:05:13.318-03:00  INFO [main] [traceId: ] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-09-12 00:05:13.431-03:00  INFO [main] [traceId: ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-12 00:05:13.431-03:00  INFO [main] [traceId: ] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1758 ms
+2022-09-12 00:05:13.485-03:00  WARN [main] [traceId: ] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-09-12 00:05:13.488-03:00  INFO [main] [traceId: ] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-12 00:05:13.500-03:00  INFO [main] [traceId: ] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-09-12 00:05:13.503-03:00 ERROR [main] [traceId: ] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2022-09-12 00:05:52.213-03:00  INFO [main] [traceId: ] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.challenge.tenpo.CrudApplicationTests], using SpringBootContextLoader
+2022-09-12 00:05:52.221-03:00  INFO [main] [traceId: ] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.challenge.tenpo.CrudApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-09-12 00:05:52.221-03:00  INFO [main] [traceId: ] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.challenge.tenpo.CrudApplicationTests]: CrudApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-09-12 00:05:52.308-03:00  INFO [main] [traceId: ] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.challenge.tenpo.percentajeRandomApplication for test class com.challenge.tenpo.CrudApplicationTests
+2022-09-12 00:05:52.400-03:00  INFO [main] [traceId: ] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-09-12 00:05:52.413-03:00  INFO [main] [traceId: ] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@486be205, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@f713686, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@74f7d1d2, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4b4dd216, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5ca17ab0, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5a62b2a4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1051817b, org.springframework.test.context.event.EventPublishingTestExecutionListener@35293c05, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@620aa4ea, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2db2dd9d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3174cb09, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4d411036, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7adbd080]
+2022-09-12 00:05:52.689-03:00  INFO [main] [traceId: ] c.challenge.tenpo.CrudApplicationTests   : Starting CrudApplicationTests on LAPTOP-NTG74QU4 with PID 15484 (started by ENVY in C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random)
+2022-09-12 00:05:52.690-03:00  INFO [main] [traceId: ] c.challenge.tenpo.CrudApplicationTests   : No active profile set, falling back to default profiles: default
+2022-09-12 00:05:53.591-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-12 00:05:53.612-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 JPA repository interfaces.
+2022-09-12 00:05:53.979-03:00  INFO [main] [traceId: ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-12 00:05:54.049-03:00  WARN [main] [traceId: ] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-09-12 00:05:54.057-03:00  INFO [main] [traceId: ] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-09-12 00:05:54.059-03:00 ERROR [main] [traceId: ] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2022-09-12 00:05:54.063-03:00 ERROR [main] [traceId: ] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@486be205] to prepare test instance [com.challenge.tenpo.CrudApplicationTests@18ffca6c]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.base/java.util.Optional.orElseGet(Optional.java:369)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:228)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:125)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 65 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 92 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 106 common frames omitted
+Caused by: org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.determineDriverClassName(DataSourceProperties.java:233)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.initializeDataSourceBuilder(DataSourceProperties.java:174)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration.createDataSource(DataSourceConfiguration.java:43)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari.dataSource(DataSourceConfiguration.java:85)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 107 common frames omitted
+2022-09-12 00:06:57.880-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Starting TtkAdmisionApplication on LAPTOP-NTG74QU4 with PID 17928 (C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random\target\classes started by ENVY in C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random)
+2022-09-12 00:06:57.883-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : No active profile set, falling back to default profiles: default
+2022-09-12 00:06:58.877-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-12 00:06:58.899-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 JPA repository interfaces.
+2022-09-12 00:06:59.249-03:00  INFO [main] [traceId: ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-12 00:06:59.654-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-12 00:06:59.664-03:00  INFO [main] [traceId: ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-12 00:06:59.664-03:00  INFO [main] [traceId: ] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-09-12 00:06:59.771-03:00  INFO [main] [traceId: ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-12 00:06:59.772-03:00  INFO [main] [traceId: ] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1841 ms
+2022-09-12 00:06:59.819-03:00  WARN [main] [traceId: ] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-09-12 00:06:59.822-03:00  INFO [main] [traceId: ] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-12 00:06:59.832-03:00  INFO [main] [traceId: ] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-09-12 00:06:59.834-03:00 ERROR [main] [traceId: ] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2022-09-12 00:07:26.354-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Starting TtkAdmisionApplication on LAPTOP-NTG74QU4 with PID 1692 (C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random\target\classes started by ENVY in C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random)
+2022-09-12 00:07:26.358-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : No active profile set, falling back to default profiles: default
+2022-09-12 00:07:27.262-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-12 00:07:27.286-03:00  INFO [main] [traceId: ] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 JPA repository interfaces.
+2022-09-12 00:07:27.647-03:00  INFO [main] [traceId: ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-12 00:07:28.072-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-12 00:07:28.082-03:00  INFO [main] [traceId: ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-12 00:07:28.082-03:00  INFO [main] [traceId: ] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-09-12 00:07:28.186-03:00  INFO [main] [traceId: ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-12 00:07:28.186-03:00  INFO [main] [traceId: ] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1780 ms
+2022-09-12 00:07:28.238-03:00  WARN [main] [traceId: ] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-09-12 00:07:28.241-03:00  INFO [main] [traceId: ] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-12 00:07:28.253-03:00  INFO [main] [traceId: ] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-09-12 00:07:28.255-03:00 ERROR [main] [traceId: ] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2022-09-12 00:07:56.930-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Starting TtkAdmisionApplication on LAPTOP-NTG74QU4 with PID 14404 (C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random\target\classes started by ENVY in C:\Users\ENVY\Desktop\CHALLENGE-TENPO\DEVELOP-TENPO\TENPO-CHALLENGE\porcentaje-random\porcentaje-random)
+2022-09-12 00:07:56.933-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : No active profile set, falling back to default profiles: default
+2022-09-12 00:07:58.328-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-12 00:07:58.337-03:00  INFO [main] [traceId: ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-12 00:07:58.338-03:00  INFO [main] [traceId: ] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-09-12 00:07:58.423-03:00  INFO [main] [traceId: ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-12 00:07:58.424-03:00  INFO [main] [traceId: ] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1444 ms
+2022-09-12 00:07:58.880-03:00  INFO [main] [traceId: ] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-12 00:07:59.327-03:00  INFO [main] [traceId: ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-12 00:07:59.334-03:00  INFO [main] [traceId: ] c.c.tenpo.TtkAdmisionApplication         : Started TtkAdmisionApplication in 2.729 seconds (JVM running for 3.356)
+2022-09-12 00:08:04.555-03:00  INFO [http-nio-8080-exec-2] [traceId: ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-12 00:08:04.557-03:00  INFO [http-nio-8080-exec-2] [traceId: ] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-12 00:08:04.564-03:00  INFO [http-nio-8080-exec-2] [traceId: ] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2022-09-12 00:08:10.964-03:00  INFO [SpringContextShutdownHook] [traceId: ] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

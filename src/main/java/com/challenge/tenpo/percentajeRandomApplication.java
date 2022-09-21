@@ -9,9 +9,6 @@ package com.challenge.tenpo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.openfeign.EnableFeignClients;
-import org.springframework.scheduling.annotation.EnableScheduling;
-
 /**
  * UsuarioService.
  *
@@ -19,9 +16,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  * @version 1.0.0, 06-09-2022
  */
 @SpringBootApplication
-@EnableFeignClients
-@EnableScheduling
-public class ChallengeTenpoApplication {
+public class percentajeRandomApplication {
 
 	// -------------------------------------------------------------------
 	// -- Public Methods -----------------------------------------------
@@ -33,7 +28,7 @@ public class ChallengeTenpoApplication {
 	 */
 
 	public static void main(String[] args) {
-		SpringApplication.run(ChallengeTenpoApplication.class, args);
+		SpringApplication.run(percentajeRandomApplication.class, args);
 	}
 
 }
