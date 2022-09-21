@@ -1,0 +1,48 @@
+# Use postgres/example user/password credentials
+version: '3.1'
+
+services:
+#database engine service
+  postgres_db:
+    container_name: postgres
+    image: postgres:latest
+    restart: always
+    ports:
+      - 127.0.0.1:5432:5432
+    volumes:
+        #allow *.sql, *.sql.gz, or *.sh and is execute only if data directory is empty
+      - ./dbfiles:/docker-entrypoint-initdb.d
+      - /var/lib/postgres_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: qwerty
+      POSTGRES_DB: postgres    
+#database admin service
+  adminer:
+    container_name: adminer
+    image: adminer
+    restart: always
+    depends_on: 
+      - postgres_db
+    ports:
+       - 9090:8080
+  #register app backend service
+  challenge-back:
+    build:
+      context: ./
+      args:
+        - JAR_FILE=target/*.jar
+    container_name: challenge-back
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres_db:5432/postgres
+      - SPRING_POSTGRES_USER=postgres
+      - SPRING_POSTGRES_PASSWORD=qwerty
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+      - JAVA_OPTS=
+        -Xms256M
+        -Xmx256M
+    depends_on:
+      - postgres_db
+    ports:
+      - 8081:8080
+

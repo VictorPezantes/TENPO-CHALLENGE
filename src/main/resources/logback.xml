@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+
+    <include resource="org/springframework/boot/logging/logback/defaults.xml" />
+    <include resource="org/springframework/boot/logging/logback/console-appender.xml" />
+    <property resource="application.properties" />
+
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSSXXX,America/Santiago} %clr(${LOG_LEVEL_PATTERN:-%5p}) [%t] [traceId: %X{trace_id}] %-40.40logger{39} : %m%n</pattern>
+        </encoder>
+        <prudent>true</prudent>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${logs.app.tenpo}/${HOSTNAME}_%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%clr(%d{yyyy-MM-dd HH:mm:ss.SSSXXX,America/Santiago}){faint} %clr(${LOG_LEVEL_PATTERN:-%5p}) %clr(${PID:- }){magenta} %clr(---){faint} %clr([%15.15t]){faint} %clr([traceId: %X{trace_id}]){faint} %clr(%-40.40logger{39}){cyan} %clr(:){faint} %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}</pattern>
+            <charset>utf8</charset>
+        </encoder>
+    </appender>
+
+    <appender name="minimal" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <encoder>
+            <pattern>%m%n</pattern>
+        </encoder>
+        <prudent>true</prudent>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${logs.app.tenpo.std}/${HOSTNAME}_%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>90</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+    <logger name="org.springframework.ws.client.MessageTracing.sent" level="TRACE" />
+    <logger name="org.springframework.ws.client.MessageTracing.received" level="TRACE" />
+    <logger name="org.springframework.ws.server.MessageTracing" level="TRACE" />
+    <logger name="std.logger" level="ALL" additivity="false">
+        <appender-ref ref="minimal" />
+    </logger>
+
+    <root level="INFO">
+        <appender-ref ref="CONSOLE" />
+        <appender-ref ref="FILE" />
+    </root>
+
+    <jmxConfigurator />
+
+</configuration>
